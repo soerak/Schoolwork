@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LEK</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <svg width="800" height="400">
+
+        <!-- BACKGROUND SKY -->
+        <rect x="0" y="0" width="800" height="400" style="fill: rgb(77, 204, 255);"></rect>
+
+        <!-- GROUND -->
+        <rect x="0" y="300" width="800" height="100" style="fill: grey;"></rect>
+
+        <!-- WARNING POLE -->
+        <rect x="150" y="200" width="10" height="150" style="fill: rgb(51, 51, 51);"></rect>
+
+        <!-- WARNING RED TRY -->
+        <polygon points="100,200 210,200 155,110" style="fill: red;"></polygon>
+
+        <!-- WARNING WHITE TRY -->
+        <polygon points="120,190 190,190 155,130" style="fill: white;"></polygon>
+
+
+        <!-- AMPEL ------------------- -->
+
+        <!-- AMPEL BASE -->
+        <rect x="300" y="220" width="10" height="130" style="fill: rgb(51, 51, 51);"></rect>
+
+        <!-- AMPEL BASE HEAD -->
+        <rect x="280" y="100" width="50" height="120" style="fill: rgb(51, 51, 51);"></rect>
+
+        <!-- AMPEL RED -->
+        <circle cx="305" cy="125" r="15" style="fill: red;"></circle>
+
+        <!-- AMPEL YELLOW -->
+        <circle cx="305" cy="160" r="15" style="fill: yellow;"></circle>
+
+        <!-- AMPEL GREEN -->
+        <circle cx="305" cy="195" r="15" style="fill: green;"></circle>
+        
+        <!-- TEXT -->
+        <text id="text" x="20" y="40" style="font-size: 20pt;">Das ist ein Test</text>
+
+        
+
+    </svg>
+
+
+
+</body>
+</html>
